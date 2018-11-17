@@ -1,0 +1,50 @@
+PODS:
+  - DLRadioButton (1.4.9)
+  - DynamicBlurView (2.0.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - PopupDialog (0.8.1):
+    - DynamicBlurView (~> 2.0)
+  - RAMAnimatedTabBarController (3.5.0)
+  - SwiftReorder (3.2.0)
+  - SwiftyJSON (4.2.0)
+  - SwipeCellKit (2.5.0)
+  - YNDropDownMenu (3.0.1)
+
+DEPENDENCIES:
+  - DLRadioButton (<= 1.4.10)
+  - FMDB
+  - PopupDialog (= 0.8.1)
+  - RAMAnimatedTabBarController (~> 3.5.0)
+  - SwiftReorder (~> 3.0)
+  - SwiftyJSON (~> 4.0)
+  - SwipeCellKit (= 2.5.0)
+  - YNDropDownMenu (= 3.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DLRadioButton
+    - DynamicBlurView
+    - FMDB
+    - PopupDialog
+    - RAMAnimatedTabBarController
+    - SwiftReorder
+    - SwiftyJSON
+    - SwipeCellKit
+    - YNDropDownMenu
+
+SPEC CHECKSUMS:
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  PopupDialog: 3d4e8e0795c3a614f407d730986c9b9af9781123
+  RAMAnimatedTabBarController: 7e259e89b669c7bc833a6441c7d8fbfd6580f473
+  SwiftReorder: 27d737099efd6125339d5e8cb090e46c67341143
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
+  YNDropDownMenu: 967ebe0c633ce8f40e8667574525aa230ba24560
+
+PODFILE CHECKSUM: 770f711a53a247bfb85e43bc4b23e05bde9da21a
+
+COCOAPODS: 1.5.3

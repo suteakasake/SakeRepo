@@ -1,0 +1,2234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0119ABF946A8BAFC124BCC55A7D11F3F /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E77199373CEA91C41AEFFEEA86ABB /* PopupDialog+Keyboard.swift */; };
+		03511FD98EDF4D945F1FBD5E405D5A54 /* Pods-QuizMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAD6C1D499E9A83B6D673B6E82C8956 /* Pods-QuizMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03F55604CB8D9B2F750472A0AC245C9B /* ReorderController+SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB428838DE2B82DB6C0EE870C9DF548 /* ReorderController+SnapshotView.swift */; };
+		0760E201200A6BF17EAE2D08098FCCBB /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C40015E526C194ABB3ACC5ADDCC390 /* RAMRotationAnimation.swift */; };
+		08F507525168DACE4DA4AEE076112B87 /* ReorderController+DestinationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E62D10A7170D16D2E1DE09D9D9F6BB3 /* ReorderController+DestinationRow.swift */; };
+		0E87446A10313E19FD6AF3C8F3CA3BC7 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 141C8A1307C5FE9CEA7382C71EABE2E2 /* PopupDialog-dummy.m */; };
+		0F979D0A878062EA1DFD82B4ACE22C01 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0D9C92CBC9594859F7C4FC7D1324D /* DynamicBlurView-dummy.m */; };
+		105547F1B7F9BEEE6B382EB86F40CA08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFBD54C4DB09453B652EB140DE6D006 /* UIKit.framework */; };
+		113D2C9F525F4570285A95718436E1C7 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C08474D52BCBB2E550CBDD75332B6D4 /* DynamicBlurView.framework */; };
+		185554AB3A4525DDBAD3DE7AE2558BCB /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B51A17E9A863F817374B119A255A7 /* UIView+Animations.swift */; };
+		19EBAE6B83EF2EA7458EAA2261019256 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95ED38B32E949E7FF3F2621A61A0B6AF /* RAMAnimatedTabBarController.swift */; };
+		1A5E57BB0204CF0EBDC2115B144660B6 /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E83056E21D06D1F6220D473781498A0B /* RAMAnimatedTabBarController-dummy.m */; };
+		1BD95819A67825305691F9D03A1477E3 /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE37D3A1B53A8BDA2C0E0D4EB821300 /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E57C5A34C471782742E356FF74D6432 /* YNDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8794443B3AF78885753B537ACC1D20 /* YNDropDownView.swift */; };
+		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D1274E5D7678AF6673E5ECC84D0E96E3 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5C6F5E89867C15DE526686B747946F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		2CF2C182080C4C29545F65703189A924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		2E79E15CF883ABB542BB418AB3017590 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4B632FFFABFE47ACEBFF7999FF6FB /* SwipeActionButton.swift */; };
+		2F6D143061A37F1799C4E9E70178679C /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = C676ADBD6F40DF67011A660A7820C835 /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3046B95FD5763046D5D9C78E635D548D /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DD62DB658DE505130A9185BD5B32C /* PresentationManager.swift */; };
+		306F75612685656D6EFF8E37E8FE841A /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DB1B3587E7FC6D0CC9D24A8745E76C /* SwipeCellKit-dummy.m */; };
+		338E0A4B44C349DEB155DD4A8546E73D /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1A25D7BE193EF8B9B90EAE4AED51EE /* SwipeFeedback.swift */; };
+		3445154957BBDB6722ED9585BEB94217 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69167DE09275A0CABB3FD67243814F /* SwipeActionTransitioning.swift */; };
+		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B60AB0BC94FA6F695418D03691AE028 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		39FC46523F2D245D68BDFF98759CBA32 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814DA789AD769F5E4170D2A9D96C445C /* SwipeTableViewCellDelegate.swift */; };
+		3C30231E647BCD1ACA701A82C93F76E8 /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BAE0B074C6C98C551C3B44773C4AE2 /* SwipeCollectionViewCell.swift */; };
+		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A644FFF79C1FBF33023DA37F7466C03 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		406091480BE58DF46687A920BB587B36 /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C1EFB082C94096EA83520C4B85306E /* PopupDialogContainerView.swift */; };
+		48A481D5D373A7C6B964DE6996358D1E /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348F3367B2B6C57BA7189EBDDC243A62 /* RAMTransitionItemAnimations.swift */; };
+		48E9843128CA7BE39DF9B8A587A73C35 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A6A8AB02212FCB7A48D633D237E07C /* SwipeExpansionStyle.swift */; };
+		54FE51EFAFE7594C419DC944F46E1608 /* Pods-QuizMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DEF66D110E91780D04345B5AAA6904 /* Pods-QuizMaker-dummy.m */; };
+		564D3DAA235C5A3153B3D635F4AB4868 /* ReorderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77AC6AF14956564309694441F4E4C78 /* ReorderController.swift */; };
+		5D19BAE8B0155836806C26876E2F812A /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149695CB7C3F02A9608ECAE4CA3075F /* CGImage+Accelerate.swift */; };
+		5E7E0B70C0D1CCD0AC694A99E8324ECD /* DLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118FB2A86F8623FC6436E10A100DF55 /* DLRadioButton-dummy.m */; };
+		608FF6E4BCB0660D1D6D9DB0FF6B22FC /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD88ACE5F278A76824B25D906F2A6D /* DynamicBlurView.swift */; };
+		645DC4F2E36E4A972986D3CD8883696C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 535826EEA8D17F9C98BFACCA9F191302 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF6DF655FB948DD7326ED039CA3A75D /* ReorderController+GestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7CAE32748D153F006A5788B1744FD /* ReorderController+GestureRecognizer.swift */; };
+		6FDB2F19FF9CF44ABCE94B84237C91F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		72763BA40BBEB214F29FF33DE5FB907C /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C6020171DB786EC9AC6534D930190 /* CaptureQuality.swift */; };
+		78FFD6D1ED952B43AFF1AE8B866D6309 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D5C944AD63300339BDDE1BC9D6ED6C /* SwipeController.swift */; };
+		7DDA9091BA9451E94BDF4894E468DDA1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD64097C78D1C038BDEFCEAFD56522C1 /* SwiftyJSON.swift */; };
+		815C6F09763A5C7961E78DF90FF0FA4C /* SwiftReorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91737C973E0D0C97332E354D32285CCC /* SwiftReorder-dummy.m */; };
+		82BD34CDF279D0AC1810CDE02EF4C156 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10DCDF725ACE10F571D9504831D26B /* UIImage+Blur.swift */; };
+		84116DD709725E60919846D7B1AF714B /* DLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0369CCC7615A91139E228C66E19041FE /* DLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C5B2F5EC28BC9C96494F2B4EB9E028 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8CAF40652A127801353B456CE7E95DB9 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E5E848209AA8BC33DFBD50CC45F368 /* PopupDialogButton.swift */; };
+		8DC0C31B20588F9BACC4DFEE35713120 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C873954CFB6BB08F3765CB627C38A82 /* UIImageView+Calculations.swift */; };
+		8F2D8EC348F59816CFDEA65538E3E532 /* DLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 713780CAAE0D38DA31F768D25E67E2F0 /* DLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7B36D7B29F6B21E0D20DAB1DE20883 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BD55871C8BAD148BDEF3BEF6766F4F /* SwiftyJSON-dummy.m */; };
+		9020BAC2EBA4A757097193DE0A86736E /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC84C8567CE5A60D75D53A483374C2 /* SwipeExpanding.swift */; };
+		948CA46498D92DAC53BD4861B79FC412 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5E82B46A15C65C002F3644A7379078 /* PresentationController.swift */; };
+		95792BE5D8CD3EFFF5D171846226B141 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B6A5F7A9E264C828380141A699804C /* Accelerate.framework */; };
+		9584B98DAE3E860B6AB5EA9781DC7057 /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25125DD41FB4EECC6BA94706AB86E021 /* BlurLayer.swift */; };
+		95F535D1D64402418BD3DC17C564778C /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D67264786D4D6CCD0BAE9A1C1C25204 /* SwipeAnimator.swift */; };
+		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 017F7DF1842E94CC27DD53448551E05F /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9779E6B966518DD6F717B9866597FD95 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859F15D224B1393B59A67DBDDC75DD7 /* TransitionAnimator.swift */; };
+		99C18F24A3468A3E051ED48475D216E5 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88511BA40210E12CBD95EB5E41482EC8 /* PopupDialogOverlayView.swift */; };
+		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CE698C273B70CC67F870EB40331544A0 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF2208547E6177E2B4D4D51AEF77ADD /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DFB392A3F2E01403A795DD162AEB9F /* SwipeTableViewCell+Accessibility.swift */; };
+		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E90B22B7FFB3829B491D0AC69C6AD6 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9D14646BA86E31D530EF9D1A7FEE7046 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF300C318101116FB10C03E726D4F1 /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		9ECD10C41BE0A52900072018FD295283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C83A38BE33A7C63BF4509150B298E3CA /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A3BABC9B4DD94D3545C982EB9D682EF6 /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5964BF2519D3DD2C7D19DF78630ACD1E /* PopupDialogDefaultViewController.swift */; };
+		A4468EBBC4D4822B114DE82067BEDD73 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B342E296EF3E68D095F7C89747D60487 /* RAMBadge.swift */; };
+		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 348373F4CB29BF7DC2B648919945245B /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8874E504B23C4AD0CD66258D97E176A /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3676AD2850D09C7E9F8465104D9BF44 /* Swipeable.swift */; };
+		A8C1B1B2B65DA13AC61AD02CD2C04B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		AA785CFD864EB48D7800491E93719723 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784AE8F7CA6BFF8CF8B6B67E7DD312A3 /* RAMBounceAnimation.swift */; };
+		AB5BF1BEEDE86E9B9895D0C73068ACAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		AB8CAED754C32A38B22D403390DB3737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		ABB63307E9AE704AB560B99D82B94BD7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A37E08E541505EC015FCD9B7BB15D25 /* Extensions.swift */; };
+		AC9919FCF4334AA815E0C6B2753BF829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		ADD5CFAB852DD9D0344AC302252A8E74 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8D2EAA8D6AD2F438BA7E39B970B0F2 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFAB059FBE21ABEBFAD1821AD67245E5 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44B6DCC1C2145A038107561E019241A /* PopupDialog.swift */; };
+		B29076EA4E745C5682BEFF413FB51CB5 /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D258404818BBE5AEC3E6DBF4B4B79 /* SwipeTableViewCell+Display.swift */; };
+		B4DDAFAB8134D998448C9BC1FE9CDB95 /* YNDropDownDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B671DF38A395970994BBEC093D565E /* YNDropDownDelegate.swift */; };
+		B6495640231432829A8130B26906A626 /* YNDropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47497B1AFC1FD774D3DA390B787633A /* YNDropDownButton.swift */; };
+		B84774FF2EC85CA1084B5298EDE89DC5 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FAD6DDFF107112FCC6C55144E26096 /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBEA492858C0429A80AF0484B29F498 /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C695BC24EB416E27A593127EA4C1F5 /* PopupDialogDefaultView.swift */; };
+		C2DB0E4B4EC4B4DF8EA4B96FB78FBA99 /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F94AFF3436AE0013A7A65C717B7CF0 /* TrackingMode.swift */; };
+		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8198D13053C5E451D42331819AEE6E8 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C71A54AF835698631CEB21DAAE823ADC /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD5265FC052F17FA97C38FE239F1A9 /* UIViewController+Visibility.swift */; };
+		CA69E1C4B41A98ABA6FE59C3B9EE6ED7 /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D36EAAB99933186CC15A82B9F7A9C7 /* InteractiveTransition.swift */; };
+		CB05C47929BEB51E3BE4BBF41A3B69DC /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0FF2617E25BF4A20FCD19A3DCF05DE /* SwipeAction.swift */; };
+		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 133B12663E2260B3B64406FDE3EF9BF4 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5A404430AA5190BA8A43623361D340 /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A709FCFB9F007068D283F9BD4B5374 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF22E982E326D620B39A1F3526ECC03E /* SwipeAccessibilityCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE38AA30B4CE6345FF6745F3744356 /* SwipeAccessibilityCustomAction.swift */; };
+		D3834090504CCC3B5DB93D6A60CDE37A /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B90881BAA304E225D3B31E32962A06 /* SwipeTransitionLayout.swift */; };
+		D3D5426AD035FEF08C0BE2BFED1B0CD9 /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B47C869760002E7F912778F2809239B /* PopupDialogDefaultButtons.swift */; };
+		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD6FC55CFA2745CC4BD4882A73FC95 /* FMDB-dummy.m */; };
+		D969319CEEDC7D1DD9A03625141D4B45 /* ReorderController+AutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A6248A225FEEB0A0C18FB7A8B8D76 /* ReorderController+AutoScroll.swift */; };
+		DB1FC093E9A2AA34952AF0460AFFF7DB /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4113280C62ABF92F022C9CF6BF358A6 /* SwipeActionsView.swift */; };
+		DC8B30AC5823821F431AF22684BDCF8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		DDB7E8F2E2AD2B887A31226E9E2AB601 /* SwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DEA2AF4F095F75FDEA34FF888A0428 /* SwipeOptions.swift */; };
+		E0F187D947493F003097ABC41B6DE7FD /* YNDropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C57E175D99F82A9522E8E2E04275C80 /* YNDropDownMenu.swift */; };
+		E2F3CA301D270BF8A608C045C2975D47 /* UITableView+Reorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2176616833617A9298AC389F5DAF9A /* UITableView+Reorder.swift */; };
+		E4152AE40616671E8CF9D82E6C45C766 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA9A3E199A2487469DE5828965F0D1 /* SwipeTableViewCell.swift */; };
+		E903D19721F34DC3492D8AC2456A87D1 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08600346CAFE8A8A7478E0991424528 /* RAMFrameItemAnimation.swift */; };
+		EAA66A78C48CB96E9FB054EC6F9916D7 /* SwipeCollectionViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B5A8CE93BBDCBA322AB0A0B19EA1E7 /* SwipeCollectionViewCell+Display.swift */; };
+		EC32FC754E6CF7551D54D35A9258D881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */; };
+		ED81D114A81E2376569B7AE62C23F807 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F16A24E237A5CA026C33C4D6BD34545 /* RAMFumeAnimation.swift */; };
+		EE42076FFD5B55EF1823A67EDCB5CF02 /* SwipeCollectionViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0830B6F5DD5C46E82738C1B14D082 /* SwipeCollectionViewCell+Accessibility.swift */; };
+		EF2F59EEA3194DFCFB39352F4DA16D76 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70402A4956B3D6E485DD202DA783C9 /* DLRadioButton.m */; };
+		F0911DFBF0FAC9DA1B6703A9F233ACEE /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14330C7EDACCD5BD447CF9917EB4A00 /* SwipeCollectionViewCellDelegate.swift */; };
+		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4274DB2CFB289AC38212066806AD25 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DCD986AC0B73E56CE95D69125491F3 /* YNDropDownDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D2DB3B9AF5E9D272074A570FBE9955 /* YNDropDownDeprecated.swift */; };
+		F4C6737DDC677E9ECE35247A46DF4CCE /* SwiftReorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F707BDFF773FCB764C66A48203C68 /* SwiftReorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E30DBDE0340E3DDF11C938BD63BBC2 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD4829D1069FC3ECC5CD2FA8214A2F /* RAMItemAnimationProtocol.swift */; };
+		F5FE96E8A46B7E45E2547BC0B87B012A /* YNDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA04D746EF6B3C76AD09F19891FCC77 /* YNDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65CC0D71F07EDBC5CAE8C79DC835474 /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E65EFC2B652D1F29A3539BEF259B6DB /* TransitionAnimations.swift */; };
+		F758C7081653CB2249CC021A95C1C1B0 /* YNDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E48141666FA43221C9B3570EEBBA11 /* YNDropDownMenu-dummy.m */; };
+		FA880CA7B7AE5D366BCD753F8251FA1E /* YNDropDownStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E23D81BC622B86268832AA9E3119BF /* YNDropDownStatus.swift */; };
+		FB5CECAD4729CF846E332E692D1673B1 /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB4DE3CBA9D336BCB9E64C5D443D36 /* CGContext+CGImage.swift */; };
+		FC95AD12EDE9BD19448723EA98A86336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFBD54C4DB09453B652EB140DE6D006 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0713A3033BBD2AECDFDB3CDC6835FC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA76C48D5A8036280871D1F0E1950DB3;
+			remoteInfo = YNDropDownMenu;
+		};
+		23480CE8D716085AADA8CD7BBE9C03A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B6C23E90DDDAD29955ECFBA77E6AA41;
+			remoteInfo = PopupDialog;
+		};
+		3758BEEF225D88361C647774B9F7174E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FE509B0ABDFDF5B6B8F102A0D955EC;
+			remoteInfo = SwipeCellKit;
+		};
+		3AE175EF2F9BF15F8E054B9CA8804326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		3F62410DBA014BB6DD4A4F5D17B7893C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE9BDD86528766AFF99F58F3E11B2665;
+			remoteInfo = SwiftyJSON;
+		};
+		664FE6E8314F18DB669A86D54C493E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD6E417B292CCB529632F0FA6F2EFEC;
+			remoteInfo = DynamicBlurView;
+		};
+		98211240D39BDFE4216A6CFDADCB35B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD6E417B292CCB529632F0FA6F2EFEC;
+			remoteInfo = DynamicBlurView;
+		};
+		C89A10F27C14A3A2AC64C79B7A117636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A77E2753C279F67F70C5C21D6FAE15;
+			remoteInfo = DLRadioButton;
+		};
+		D5D746C4A4DEDCB278161CB68CBBE8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755E9943F9B7F67A9F4D75B66F2F6E04;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
+		DBE050C417661CD44E0232E0C6D83ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2C7CADE64757C27CD3FF4CA68562D7;
+			remoteInfo = SwiftReorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012671E3C40A15978758B953CD5AFFC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017889046D933A353D810399FA09350B /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		017F7DF1842E94CC27DD53448551E05F /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		0369CCC7615A91139E228C66E19041FE /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		03ECC99A0BC0084F8AAEB2EC525D1450 /* SwiftReorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftReorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B5A8CE93BBDCBA322AB0A0B19EA1E7 /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Display.swift"; path = "Source/SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
+		05834A0AD7FEE64AA97DF24E53049E9C /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06E48141666FA43221C9B3570EEBBA11 /* YNDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YNDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		0B47C869760002E7F912778F2809239B /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		0CBB4DE3CBA9D336BCB9E64C5D443D36 /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		0E62D10A7170D16D2E1DE09D9D9F6BB3 /* ReorderController+DestinationRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+DestinationRow.swift"; path = "Source/ReorderController+DestinationRow.swift"; sourceTree = "<group>"; };
+		0F16A24E237A5CA026C33C4D6BD34545 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		0F5B62ED9218E1E8D3861867157251ED /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		133B12663E2260B3B64406FDE3EF9BF4 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		1355D36015EB5449B01CE4D7448A2715 /* Pods_QuizMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizMaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141C8A1307C5FE9CEA7382C71EABE2E2 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		152B290983413C59413DDC720ED970BE /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		15996BFA34230CBBD71DA0CB09A6B6E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BF4235CA13BB46EE2A2F1322E78BE2 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		15DEA2AF4F095F75FDEA34FF888A0428 /* SwipeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeOptions.swift; path = Source/SwipeOptions.swift; sourceTree = "<group>"; };
+		17BD55871C8BAD148BDEF3BEF6766F4F /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		17D36EAAB99933186CC15A82B9F7A9C7 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		1960628E82F8BCF77D63B4D09E069D84 /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
+		1B2B51A17E9A863F817374B119A255A7 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		1DA8C7301019D67EEB55CC076B1E9C43 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		1E65EFC2B652D1F29A3539BEF259B6DB /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
+		22DEF66D110E91780D04345B5AAA6904 /* Pods-QuizMaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuizMaker-dummy.m"; sourceTree = "<group>"; };
+		23516E5F7EA2B20D9E4ACB155B138335 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		25125DD41FB4EECC6BA94706AB86E021 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
+		252549239EDD010E944F2F79C420B2D2 /* YNDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
+		26B90881BAA304E225D3B31E32962A06 /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
+		2CE0D9C92CBC9594859F7C4FC7D1324D /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
+		2FBD88ACE5F278A76824B25D906F2A6D /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
+		3118FB2A86F8623FC6436E10A100DF55 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		348373F4CB29BF7DC2B648919945245B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		348F3367B2B6C57BA7189EBDDC243A62 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		34C40015E526C194ABB3ACC5ADDCC390 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		38FF300C318101116FB10C03E726D4F1 /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RAMAnimatedTabBarController+BottomLine.swift"; path = "RAMAnimatedTabBarController/RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
+		39911A4B58AA5D9A67361C6370AA7776 /* DynamicBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.xcconfig; sourceTree = "<group>"; };
+		3C873954CFB6BB08F3765CB627C38A82 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		3E9CE6C4CFA5A5ECAE6B5DB00FAF200E /* Pods-QuizMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizMaker.debug.xcconfig"; sourceTree = "<group>"; };
+		42D5C944AD63300339BDDE1BC9D6ED6C /* SwipeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeController.swift; path = Source/SwipeController.swift; sourceTree = "<group>"; };
+		441E4A76A6BE61A5094B03274BA32AA9 /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+		45E6A6C997EE18A5AA2A4C23AB0A930D /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		460ABA1B803C4EF07FB680DFA0880E67 /* SwiftReorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftReorder.modulemap; sourceTree = "<group>"; };
+		4700409871FA3B296F97E96DC85BA631 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49819984EC36A69D68609B8D4A728DE6 /* SwiftReorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftReorder.xcconfig; sourceTree = "<group>"; };
+		4A69167DE09275A0CABB3FD67243814F /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		4C57E175D99F82A9522E8E2E04275C80 /* YNDropDownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownMenu.swift; path = YNDropDownMenu/YNDropDownMenu.swift; sourceTree = "<group>"; };
+		4C5E82B46A15C65C002F3644A7379078 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		4DA04D746EF6B3C76AD09F19891FCC77 /* YNDropDownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNDropDownMenu-umbrella.h"; sourceTree = "<group>"; };
+		4E70402A4956B3D6E485DD202DA783C9 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
+		51E90B22B7FFB3829B491D0AC69C6AD6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		531AD929437D7ABCF5DCE3C774D68FD9 /* YNDropDownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YNDropDownMenu.modulemap; sourceTree = "<group>"; };
+		535826EEA8D17F9C98BFACCA9F191302 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		54CD5265FC052F17FA97C38FE239F1A9 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
+		55B671DF38A395970994BBEC093D565E /* YNDropDownDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDelegate.swift; path = YNDropDownMenu/YNDropDownDelegate.swift; sourceTree = "<group>"; };
+		57F6124FD73D1AD92C35D9D9AF109DF5 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		58B6A5F7A9E264C828380141A699804C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		58FFCC2FD720FA8DB0333F01260CAD37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5964BF2519D3DD2C7D19DF78630ACD1E /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		59A3CE537E96CB08992DE980C0068D72 /* SwipeCellKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.xcconfig; sourceTree = "<group>"; };
+		5EF7CAE32748D153F006A5788B1744FD /* ReorderController+GestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+GestureRecognizer.swift"; path = "Source/ReorderController+GestureRecognizer.swift"; sourceTree = "<group>"; };
+		61D2DB3B9AF5E9D272074A570FBE9955 /* YNDropDownDeprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownDeprecated.swift; path = YNDropDownMenu/YNDropDownDeprecated.swift; sourceTree = "<group>"; };
+		61F63FA6DE798BB2CFC976C83BD037ED /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		65F94AFF3436AE0013A7A65C717B7CF0 /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
+		68835A20AB177D62E0689DFBEC8B3C58 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
+		696646EBB8AC8C42A81B19AF3F4DC37B /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0EAD16EC6E2AB6C26D509EF8F76212 /* RAMAnimatedTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.xcconfig; sourceTree = "<group>"; };
+		6BD540E9C74BC5ED62060A3E021E1573 /* YNDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		6D0FF2617E25BF4A20FCD19A3DCF05DE /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
+		6EFAFA83712D69674FEF11FE692EE2CE /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		713780CAAE0D38DA31F768D25E67E2F0 /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
+		71A340C9F3981C86AE6249E0DA2232E1 /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7781A8E02E3CECDE94786368B0C1A652 /* Pods-QuizMaker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizMaker-resources.sh"; sourceTree = "<group>"; };
+		784AE8F7CA6BFF8CF8B6B67E7DD312A3 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		79B94A839C8B60C5A95D77EC347D20C4 /* YNDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YNDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD0830B6F5DD5C46E82738C1B14D082 /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Accessibility.swift"; path = "Source/SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		7B60AB0BC94FA6F695418D03691AE028 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		7BDDBB9788F5447BD74F252B4396A3F2 /* Pods-QuizMaker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuizMaker-frameworks.sh"; sourceTree = "<group>"; };
+		7C08474D52BCBB2E550CBDD75332B6D4 /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB96F3027FB3D8CA1C0EAB02B535F18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D069AA83C389CD4D916BF261274C2F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB9B5C2D5876B9FB8A44A61B11477E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FEC84C8567CE5A60D75D53A483374C2 /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
+		814DA789AD769F5E4170D2A9D96C445C /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		82C1EFB082C94096EA83520C4B85306E /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		88511BA40210E12CBD95EB5E41482EC8 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
+		88BAE0B074C6C98C551C3B44773C4AE2 /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCell.swift; path = Source/SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		89635BE391E56CEB3A2FE95811CA6CD9 /* Pods-QuizMaker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuizMaker-acknowledgements.plist"; sourceTree = "<group>"; };
+		8ACD6FC55CFA2745CC4BD4882A73FC95 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		8C692DDB500AEE481154D9DC75D89A41 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
+		8CFE2647C9104CE7CCCA8E24EDDB5B01 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
+		8D67264786D4D6CCD0BAE9A1C1C25204 /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		8FEA9A3E199A2487469DE5828965F0D1 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		8FEE38AA30B4CE6345FF6745F3744356 /* SwipeAccessibilityCustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAccessibilityCustomAction.swift; path = Source/SwipeAccessibilityCustomAction.swift; sourceTree = "<group>"; };
+		91737C973E0D0C97332E354D32285CCC /* SwiftReorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftReorder-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95ED38B32E949E7FF3F2621A61A0B6AF /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		97A6A8AB02212FCB7A48D633D237E07C /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		9A2176616833617A9298AC389F5DAF9A /* UITableView+Reorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Reorder.swift"; path = "Source/UITableView+Reorder.swift"; sourceTree = "<group>"; };
+		9A37E08E541505EC015FCD9B7BB15D25 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
+		9A644FFF79C1FBF33023DA37F7466C03 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		9AE37D3A1B53A8BDA2C0E0D4EB821300 /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
+		9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9C4274DB2CFB289AC38212066806AD25 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		9F10DCDF725ACE10F571D9504831D26B /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
+		A08600346CAFE8A8A7478E0991424528 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		A0E1269F2F8A496C01299925230289F8 /* Pods-QuizMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuizMaker.release.xcconfig"; sourceTree = "<group>"; };
+		A4113280C62ABF92F022C9CF6BF358A6 /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
+		A44B6DCC1C2145A038107561E019241A /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		A51CF9C79A475F82FD3FF2F07F72A29F /* Pods-QuizMaker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuizMaker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A77AC6AF14956564309694441F4E4C78 /* ReorderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReorderController.swift; path = Source/ReorderController.swift; sourceTree = "<group>"; };
+		AE7A1989AEB28EF41C276E7A51225049 /* SwiftReorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftReorder-prefix.pch"; sourceTree = "<group>"; };
+		AF18B866A4184E2CE76CF8E8AA832FD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11E77199373CEA91C41AEFFEEA86ABB /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		B1DFB392A3F2E01403A795DD162AEB9F /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		B342E296EF3E68D095F7C89747D60487 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		B4DB1B3587E7FC6D0CC9D24A8745E76C /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		B6E5E848209AA8BC33DFBD50CC45F368 /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		B8C5B2F5EC28BC9C96494F2B4EB9E028 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		BA5141369523F0A49F4782096748D3CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7D258404818BBE5AEC3E6DBF4B4B79 /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
+		BC8794443B3AF78885753B537ACC1D20 /* YNDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownView.swift; path = YNDropDownMenu/YNDropDownView.swift; sourceTree = "<group>"; };
+		BD1A25D7BE193EF8B9B90EAE4AED51EE /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
+		BFFBD54C4DB09453B652EB140DE6D006 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C032E05B3862AFF6732E38B65F4BFD04 /* Pods-QuizMaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QuizMaker.modulemap"; sourceTree = "<group>"; };
+		C149695CB7C3F02A9608ECAE4CA3075F /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		C39A6248A225FEEB0A0C18FB7A8B8D76 /* ReorderController+AutoScroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+AutoScroll.swift"; path = "Source/ReorderController+AutoScroll.swift"; sourceTree = "<group>"; };
+		C3C1D6C1C64444CA949BA0979FF89BA7 /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
+		C676ADBD6F40DF67011A660A7820C835 /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		C7E23D81BC622B86268832AA9E3119BF /* YNDropDownStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownStatus.swift; path = YNDropDownMenu/YNDropDownStatus.swift; sourceTree = "<group>"; };
+		C83A38BE33A7C63BF4509150B298E3CA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CA3DD62DB658DE505130A9185BD5B32C /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		CB5329C6B4A02276D21EE94AEB0EB043 /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
+		CE698C273B70CC67F870EB40331544A0 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		CF9C6020171DB786EC9AC6534D930190 /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
+		D1274E5D7678AF6673E5ECC84D0E96E3 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		D29E3BB56039E850249DCB495A4B48AA /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7446630224D03D44854DE21F5CA7F19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D4B632FFFABFE47ACEBFF7999FF6FB /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
+		D94F707BDFF773FCB764C66A48203C68 /* SwiftReorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftReorder-umbrella.h"; sourceTree = "<group>"; };
+		DB92FB2AB17433C5F3665BC8A5E2D06C /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD64097C78D1C038BDEFCEAFD56522C1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		E2FF6D697467F475BD1527E1814D9A2D /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
+		E3FD4829D1069FC3ECC5CD2FA8214A2F /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		E6A709FCFB9F007068D283F9BD4B5374 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
+		E8198D13053C5E451D42331819AEE6E8 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		E83056E21D06D1F6220D473781498A0B /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		EEAD6C1D499E9A83B6D673B6E82C8956 /* Pods-QuizMaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuizMaker-umbrella.h"; sourceTree = "<group>"; };
+		F14330C7EDACCD5BD447CF9917EB4A00 /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCellDelegate.swift; path = Source/SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		F3676AD2850D09C7E9F8465104D9BF44 /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
+		F47497B1AFC1FD774D3DA390B787633A /* YNDropDownButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNDropDownButton.swift; path = YNDropDownMenu/YNDropDownButton.swift; sourceTree = "<group>"; };
+		F4C6533D3C22A0A5ED1B41775EE10C7C /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C695BC24EB416E27A593127EA4C1F5 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		F6FAD6DDFF107112FCC6C55144E26096 /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		F859F15D224B1393B59A67DBDDC75DD7 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		F9733F8F471CE66F7B59E67DD041652F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8D2EAA8D6AD2F438BA7E39B970B0F2 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		FAB428838DE2B82DB6C0EE870C9DF548 /* ReorderController+SnapshotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ReorderController+SnapshotView.swift"; path = "Source/ReorderController+SnapshotView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A34786E477FD712AE6F600D9B30D85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113D2C9F525F4570285A95718436E1C7 /* DynamicBlurView.framework in Frameworks */,
+				AB8CAED754C32A38B22D403390DB3737 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81668173AE602C46A6D214E9B4F84F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95792BE5D8CD3EFFF5D171846226B141 /* Accelerate.framework in Frameworks */,
+				DC8B30AC5823821F431AF22684BDCF8F /* Foundation.framework in Frameworks */,
+				FC95AD12EDE9BD19448723EA98A86336 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A324E81F33CA8363E22E0C427CBC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5BF1BEEDE86E9B9895D0C73068ACAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB977252AE38D007CB93BC6FA8F0255C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9919FCF4334AA815E0C6B2753BF829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95CCCE465C7957AB279E8E557552FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF2C182080C4C29545F65703189A924 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6CB1029D4FAE287F57C8415E8291B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C1B1B2B65DA13AC61AD02CD2C04B60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6071B4A4A9F7ABE34DD9543715CFD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC32FC754E6CF7551D54D35A9258D881 /* Foundation.framework in Frameworks */,
+				105547F1B7F9BEEE6B382EB86F40CA08 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820850ED34866F9B5B7A47E4696A8A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5C6F5E89867C15DE526686B747946F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FDB2F19FF9CF44ABCE94B84237C91F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3CEAA418F5292019DB0E390E02EEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECD10C41BE0A52900072018FD295283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E56EC341972A09EE6F172B58992D915 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D069AA83C389CD4D916BF261274C2F1 /* Info.plist */,
+				68835A20AB177D62E0689DFBEC8B3C58 /* SwipeCellKit.modulemap */,
+				59A3CE537E96CB08992DE980C0068D72 /* SwipeCellKit.xcconfig */,
+				B4DB1B3587E7FC6D0CC9D24A8745E76C /* SwipeCellKit-dummy.m */,
+				C3C1D6C1C64444CA949BA0979FF89BA7 /* SwipeCellKit-prefix.pch */,
+				E6A709FCFB9F007068D283F9BD4B5374 /* SwipeCellKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeCellKit";
+			sourceTree = "<group>";
+		};
+		143E17AC230D6B90CFD6833FDED6C24B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				012671E3C40A15978758B953CD5AFFC2 /* Info.plist */,
+				6EFAFA83712D69674FEF11FE692EE2CE /* PopupDialog.modulemap */,
+				45E6A6C997EE18A5AA2A4C23AB0A930D /* PopupDialog.xcconfig */,
+				141C8A1307C5FE9CEA7382C71EABE2E2 /* PopupDialog-dummy.m */,
+				23516E5F7EA2B20D9E4ACB155B138335 /* PopupDialog-prefix.pch */,
+				FA8D2EAA8D6AD2F438BA7E39B970B0F2 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		185C4DDCBDBBB9E2AE77F277DED7B515 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF18B866A4184E2CE76CF8E8AA832FD7 /* Info.plist */,
+				017889046D933A353D810399FA09350B /* SwiftyJSON.modulemap */,
+				57F6124FD73D1AD92C35D9D9AF109DF5 /* SwiftyJSON.xcconfig */,
+				17BD55871C8BAD148BDEF3BEF6766F4F /* SwiftyJSON-dummy.m */,
+				0F5B62ED9218E1E8D3861867157251ED /* SwiftyJSON-prefix.pch */,
+				535826EEA8D17F9C98BFACCA9F191302 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		22E24D4E3A3CEC2103B244F105AD5B4C /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				17D36EAAB99933186CC15A82B9F7A9C7 /* InteractiveTransition.swift */,
+				A44B6DCC1C2145A038107561E019241A /* PopupDialog.swift */,
+				B11E77199373CEA91C41AEFFEEA86ABB /* PopupDialog+Keyboard.swift */,
+				B6E5E848209AA8BC33DFBD50CC45F368 /* PopupDialogButton.swift */,
+				82C1EFB082C94096EA83520C4B85306E /* PopupDialogContainerView.swift */,
+				0B47C869760002E7F912778F2809239B /* PopupDialogDefaultButtons.swift */,
+				F6C695BC24EB416E27A593127EA4C1F5 /* PopupDialogDefaultView.swift */,
+				5964BF2519D3DD2C7D19DF78630ACD1E /* PopupDialogDefaultViewController.swift */,
+				88511BA40210E12CBD95EB5E41482EC8 /* PopupDialogOverlayView.swift */,
+				4C5E82B46A15C65C002F3644A7379078 /* PresentationController.swift */,
+				CA3DD62DB658DE505130A9185BD5B32C /* PresentationManager.swift */,
+				1E65EFC2B652D1F29A3539BEF259B6DB /* TransitionAnimations.swift */,
+				F859F15D224B1393B59A67DBDDC75DD7 /* TransitionAnimator.swift */,
+				3C873954CFB6BB08F3765CB627C38A82 /* UIImageView+Calculations.swift */,
+				1B2B51A17E9A863F817374B119A255A7 /* UIView+Animations.swift */,
+				54CD5265FC052F17FA97C38FE239F1A9 /* UIViewController+Visibility.swift */,
+				143E17AC230D6B90CFD6833FDED6C24B /* Support Files */,
+			);
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
+		2A1E361FF7C3A60C3958BDDDD517F82A /* Pods-QuizMaker */ = {
+			isa = PBXGroup;
+			children = (
+				15996BFA34230CBBD71DA0CB09A6B6E1 /* Info.plist */,
+				C032E05B3862AFF6732E38B65F4BFD04 /* Pods-QuizMaker.modulemap */,
+				A51CF9C79A475F82FD3FF2F07F72A29F /* Pods-QuizMaker-acknowledgements.markdown */,
+				89635BE391E56CEB3A2FE95811CA6CD9 /* Pods-QuizMaker-acknowledgements.plist */,
+				22DEF66D110E91780D04345B5AAA6904 /* Pods-QuizMaker-dummy.m */,
+				7BDDBB9788F5447BD74F252B4396A3F2 /* Pods-QuizMaker-frameworks.sh */,
+				7781A8E02E3CECDE94786368B0C1A652 /* Pods-QuizMaker-resources.sh */,
+				EEAD6C1D499E9A83B6D673B6E82C8956 /* Pods-QuizMaker-umbrella.h */,
+				3E9CE6C4CFA5A5ECAE6B5DB00FAF200E /* Pods-QuizMaker.debug.xcconfig */,
+				A0E1269F2F8A496C01299925230289F8 /* Pods-QuizMaker.release.xcconfig */,
+			);
+			name = "Pods-QuizMaker";
+			path = "Target Support Files/Pods-QuizMaker";
+			sourceTree = "<group>";
+		};
+		3ED1BECB8D463DFC801F74E43AB0616A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1E361FF7C3A60C3958BDDDD517F82A /* Pods-QuizMaker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4199229C1565F6ECE3E033EB2422E852 /* SwipeCellKit */ = {
+			isa = PBXGroup;
+			children = (
+				9A37E08E541505EC015FCD9B7BB15D25 /* Extensions.swift */,
+				F3676AD2850D09C7E9F8465104D9BF44 /* Swipeable.swift */,
+				8FEE38AA30B4CE6345FF6745F3744356 /* SwipeAccessibilityCustomAction.swift */,
+				6D0FF2617E25BF4A20FCD19A3DCF05DE /* SwipeAction.swift */,
+				D8D4B632FFFABFE47ACEBFF7999FF6FB /* SwipeActionButton.swift */,
+				A4113280C62ABF92F022C9CF6BF358A6 /* SwipeActionsView.swift */,
+				4A69167DE09275A0CABB3FD67243814F /* SwipeActionTransitioning.swift */,
+				8D67264786D4D6CCD0BAE9A1C1C25204 /* SwipeAnimator.swift */,
+				88BAE0B074C6C98C551C3B44773C4AE2 /* SwipeCollectionViewCell.swift */,
+				7AD0830B6F5DD5C46E82738C1B14D082 /* SwipeCollectionViewCell+Accessibility.swift */,
+				04B5A8CE93BBDCBA322AB0A0B19EA1E7 /* SwipeCollectionViewCell+Display.swift */,
+				F14330C7EDACCD5BD447CF9917EB4A00 /* SwipeCollectionViewCellDelegate.swift */,
+				42D5C944AD63300339BDDE1BC9D6ED6C /* SwipeController.swift */,
+				7FEC84C8567CE5A60D75D53A483374C2 /* SwipeExpanding.swift */,
+				97A6A8AB02212FCB7A48D633D237E07C /* SwipeExpansionStyle.swift */,
+				BD1A25D7BE193EF8B9B90EAE4AED51EE /* SwipeFeedback.swift */,
+				15DEA2AF4F095F75FDEA34FF888A0428 /* SwipeOptions.swift */,
+				8FEA9A3E199A2487469DE5828965F0D1 /* SwipeTableViewCell.swift */,
+				B1DFB392A3F2E01403A795DD162AEB9F /* SwipeTableViewCell+Accessibility.swift */,
+				BC7D258404818BBE5AEC3E6DBF4B4B79 /* SwipeTableViewCell+Display.swift */,
+				814DA789AD769F5E4170D2A9D96C445C /* SwipeTableViewCellDelegate.swift */,
+				26B90881BAA304E225D3B31E32962A06 /* SwipeTransitionLayout.swift */,
+				0E56EC341972A09EE6F172B58992D915 /* Support Files */,
+			);
+			path = SwipeCellKit;
+			sourceTree = "<group>";
+		};
+		43996E620918A828EC543B41963F5F26 /* YNDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F47497B1AFC1FD774D3DA390B787633A /* YNDropDownButton.swift */,
+				55B671DF38A395970994BBEC093D565E /* YNDropDownDelegate.swift */,
+				61D2DB3B9AF5E9D272074A570FBE9955 /* YNDropDownDeprecated.swift */,
+				4C57E175D99F82A9522E8E2E04275C80 /* YNDropDownMenu.swift */,
+				C7E23D81BC622B86268832AA9E3119BF /* YNDropDownStatus.swift */,
+				BC8794443B3AF78885753B537ACC1D20 /* YNDropDownView.swift */,
+				91271E300131C81BCDA68888DB493799 /* Support Files */,
+			);
+			path = YNDropDownMenu;
+			sourceTree = "<group>";
+		};
+		50C1A6B2F0D11952F4200848DD4142A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB0A71B185E1768A0E60348FDF357506 /* DLRadioButton */,
+				9427E0FF77F111867D382952965EB1DC /* DynamicBlurView */,
+				BB58D29FF593250AD9957406A97CFD13 /* FMDB */,
+				22E24D4E3A3CEC2103B244F105AD5B4C /* PopupDialog */,
+				A88ADBE64701396E35AF88A980996CBF /* RAMAnimatedTabBarController */,
+				698DF73BB76C8BE458E15DE8826A94CD /* SwiftReorder */,
+				EC0DDEA9C9C096A8A03437F8366B9303 /* SwiftyJSON */,
+				4199229C1565F6ECE3E033EB2422E852 /* SwipeCellKit */,
+				43996E620918A828EC543B41963F5F26 /* YNDropDownMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55EC9F81B8CEC49E633A4042FCAB2707 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				58B6A5F7A9E264C828380141A699804C /* Accelerate.framework */,
+				9BD69CD25D24B82DB0E1E5847CC59CBA /* Foundation.framework */,
+				BFFBD54C4DB09453B652EB140DE6D006 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6430C1F19CDA9631DAE169D14ECE9B0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FF6D697467F475BD1527E1814D9A2D /* FMDB.modulemap */,
+				61F63FA6DE798BB2CFC976C83BD037ED /* FMDB.xcconfig */,
+				8ACD6FC55CFA2745CC4BD4882A73FC95 /* FMDB-dummy.m */,
+				1DA8C7301019D67EEB55CC076B1E9C43 /* FMDB-prefix.pch */,
+				017F7DF1842E94CC27DD53448551E05F /* FMDB-umbrella.h */,
+				7FB9B5C2D5876B9FB8A44A61B11477E3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		698DF73BB76C8BE458E15DE8826A94CD /* SwiftReorder */ = {
+			isa = PBXGroup;
+			children = (
+				A77AC6AF14956564309694441F4E4C78 /* ReorderController.swift */,
+				C39A6248A225FEEB0A0C18FB7A8B8D76 /* ReorderController+AutoScroll.swift */,
+				0E62D10A7170D16D2E1DE09D9D9F6BB3 /* ReorderController+DestinationRow.swift */,
+				5EF7CAE32748D153F006A5788B1744FD /* ReorderController+GestureRecognizer.swift */,
+				FAB428838DE2B82DB6C0EE870C9DF548 /* ReorderController+SnapshotView.swift */,
+				9A2176616833617A9298AC389F5DAF9A /* UITableView+Reorder.swift */,
+				994F63E8F956DDCB1D1F580E5183970B /* Support Files */,
+			);
+			path = SwiftReorder;
+			sourceTree = "<group>";
+		};
+		6B995C670C6976B7057E04B1E635A1D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1960628E82F8BCF77D63B4D09E069D84 /* DynamicBlurView.modulemap */,
+				39911A4B58AA5D9A67361C6370AA7776 /* DynamicBlurView.xcconfig */,
+				2CE0D9C92CBC9594859F7C4FC7D1324D /* DynamicBlurView-dummy.m */,
+				8C692DDB500AEE481154D9DC75D89A41 /* DynamicBlurView-prefix.pch */,
+				9AE37D3A1B53A8BDA2C0E0D4EB821300 /* DynamicBlurView-umbrella.h */,
+				BA5141369523F0A49F4782096748D3CB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicBlurView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B4CCC7FF42736397EBF9D7E98A71C928 /* Frameworks */,
+				50C1A6B2F0D11952F4200848DD4142A0 /* Pods */,
+				C9F4DD66B7C35543473ED4B8E6AD7F37 /* Products */,
+				3ED1BECB8D463DFC801F74E43AB0616A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBF1905DE5420A52E92BCF5A3311442 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				9C4274DB2CFB289AC38212066806AD25 /* FMDatabase.h */,
+				7B60AB0BC94FA6F695418D03691AE028 /* FMDatabase.m */,
+				348373F4CB29BF7DC2B648919945245B /* FMDatabaseAdditions.h */,
+				51E90B22B7FFB3829B491D0AC69C6AD6 /* FMDatabaseAdditions.m */,
+				CE698C273B70CC67F870EB40331544A0 /* FMDatabasePool.h */,
+				E8198D13053C5E451D42331819AEE6E8 /* FMDatabasePool.m */,
+				D1274E5D7678AF6673E5ECC84D0E96E3 /* FMDatabaseQueue.h */,
+				C83A38BE33A7C63BF4509150B298E3CA /* FMDatabaseQueue.m */,
+				133B12663E2260B3B64406FDE3EF9BF4 /* FMDB.h */,
+				9A644FFF79C1FBF33023DA37F7466C03 /* FMResultSet.h */,
+				B8C5B2F5EC28BC9C96494F2B4EB9E028 /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		91271E300131C81BCDA68888DB493799 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58FFCC2FD720FA8DB0333F01260CAD37 /* Info.plist */,
+				531AD929437D7ABCF5DCE3C774D68FD9 /* YNDropDownMenu.modulemap */,
+				6BD540E9C74BC5ED62060A3E021E1573 /* YNDropDownMenu.xcconfig */,
+				06E48141666FA43221C9B3570EEBBA11 /* YNDropDownMenu-dummy.m */,
+				252549239EDD010E944F2F79C420B2D2 /* YNDropDownMenu-prefix.pch */,
+				4DA04D746EF6B3C76AD09F19891FCC77 /* YNDropDownMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YNDropDownMenu";
+			sourceTree = "<group>";
+		};
+		9427E0FF77F111867D382952965EB1DC /* DynamicBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				25125DD41FB4EECC6BA94706AB86E021 /* BlurLayer.swift */,
+				CF9C6020171DB786EC9AC6534D930190 /* CaptureQuality.swift */,
+				0CBB4DE3CBA9D336BCB9E64C5D443D36 /* CGContext+CGImage.swift */,
+				C149695CB7C3F02A9608ECAE4CA3075F /* CGImage+Accelerate.swift */,
+				C676ADBD6F40DF67011A660A7820C835 /* DynamicBlurView.h */,
+				2FBD88ACE5F278A76824B25D906F2A6D /* DynamicBlurView.swift */,
+				65F94AFF3436AE0013A7A65C717B7CF0 /* TrackingMode.swift */,
+				9F10DCDF725ACE10F571D9504831D26B /* UIImage+Blur.swift */,
+				6B995C670C6976B7057E04B1E635A1D8 /* Support Files */,
+			);
+			path = DynamicBlurView;
+			sourceTree = "<group>";
+		};
+		994F63E8F956DDCB1D1F580E5183970B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7446630224D03D44854DE21F5CA7F19 /* Info.plist */,
+				460ABA1B803C4EF07FB680DFA0880E67 /* SwiftReorder.modulemap */,
+				49819984EC36A69D68609B8D4A728DE6 /* SwiftReorder.xcconfig */,
+				91737C973E0D0C97332E354D32285CCC /* SwiftReorder-dummy.m */,
+				AE7A1989AEB28EF41C276E7A51225049 /* SwiftReorder-prefix.pch */,
+				D94F707BDFF773FCB764C66A48203C68 /* SwiftReorder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftReorder";
+			sourceTree = "<group>";
+		};
+		A88ADBE64701396E35AF88A980996CBF /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				95ED38B32E949E7FF3F2621A61A0B6AF /* RAMAnimatedTabBarController.swift */,
+				38FF300C318101116FB10C03E726D4F1 /* RAMAnimatedTabBarController+BottomLine.swift */,
+				B342E296EF3E68D095F7C89747D60487 /* RAMBadge.swift */,
+				784AE8F7CA6BFF8CF8B6B67E7DD312A3 /* RAMBounceAnimation.swift */,
+				A08600346CAFE8A8A7478E0991424528 /* RAMFrameItemAnimation.swift */,
+				0F16A24E237A5CA026C33C4D6BD34545 /* RAMFumeAnimation.swift */,
+				E3FD4829D1069FC3ECC5CD2FA8214A2F /* RAMItemAnimationProtocol.swift */,
+				34C40015E526C194ABB3ACC5ADDCC390 /* RAMRotationAnimation.swift */,
+				348F3367B2B6C57BA7189EBDDC243A62 /* RAMTransitionItemAnimations.swift */,
+				F634342E51144D6FF2BE67AAB01BEEFE /* Support Files */,
+			);
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		AB0A71B185E1768A0E60348FDF357506 /* DLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				713780CAAE0D38DA31F768D25E67E2F0 /* DLRadioButton.h */,
+				4E70402A4956B3D6E485DD202DA783C9 /* DLRadioButton.m */,
+				FDF43D3608655426367CD50D9BD51BA7 /* Support Files */,
+			);
+			path = DLRadioButton;
+			sourceTree = "<group>";
+		};
+		B4CCC7FF42736397EBF9D7E98A71C928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C08474D52BCBB2E550CBDD75332B6D4 /* DynamicBlurView.framework */,
+				55EC9F81B8CEC49E633A4042FCAB2707 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB58D29FF593250AD9957406A97CFD13 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF1905DE5420A52E92BCF5A3311442 /* standard */,
+				6430C1F19CDA9631DAE169D14ECE9B0B /* Support Files */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		C9F4DD66B7C35543473ED4B8E6AD7F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05834A0AD7FEE64AA97DF24E53049E9C /* DLRadioButton.framework */,
+				DB92FB2AB17433C5F3665BC8A5E2D06C /* DynamicBlurView.framework */,
+				696646EBB8AC8C42A81B19AF3F4DC37B /* FMDB.framework */,
+				1355D36015EB5449B01CE4D7448A2715 /* Pods_QuizMaker.framework */,
+				F4C6533D3C22A0A5ED1B41775EE10C7C /* PopupDialog.framework */,
+				71A340C9F3981C86AE6249E0DA2232E1 /* RAMAnimatedTabBarController.framework */,
+				03ECC99A0BC0084F8AAEB2EC525D1450 /* SwiftReorder.framework */,
+				F9733F8F471CE66F7B59E67DD041652F /* SwiftyJSON.framework */,
+				D29E3BB56039E850249DCB495A4B48AA /* SwipeCellKit.framework */,
+				79B94A839C8B60C5A95D77EC347D20C4 /* YNDropDownMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0DDEA9C9C096A8A03437F8366B9303 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				DD64097C78D1C038BDEFCEAFD56522C1 /* SwiftyJSON.swift */,
+				185C4DDCBDBBB9E2AE77F277DED7B515 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		F634342E51144D6FF2BE67AAB01BEEFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CB96F3027FB3D8CA1C0EAB02B535F18 /* Info.plist */,
+				8CFE2647C9104CE7CCCA8E24EDDB5B01 /* RAMAnimatedTabBarController.modulemap */,
+				6B0EAD16EC6E2AB6C26D509EF8F76212 /* RAMAnimatedTabBarController.xcconfig */,
+				E83056E21D06D1F6220D473781498A0B /* RAMAnimatedTabBarController-dummy.m */,
+				15BF4235CA13BB46EE2A2F1322E78BE2 /* RAMAnimatedTabBarController-prefix.pch */,
+				F6FAD6DDFF107112FCC6C55144E26096 /* RAMAnimatedTabBarController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		FDF43D3608655426367CD50D9BD51BA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				152B290983413C59413DDC720ED970BE /* DLRadioButton.modulemap */,
+				CB5329C6B4A02276D21EE94AEB0EB043 /* DLRadioButton.xcconfig */,
+				3118FB2A86F8623FC6436E10A100DF55 /* DLRadioButton-dummy.m */,
+				441E4A76A6BE61A5094B03274BA32AA9 /* DLRadioButton-prefix.pch */,
+				0369CCC7615A91139E228C66E19041FE /* DLRadioButton-umbrella.h */,
+				4700409871FA3B296F97E96DC85BA631 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DLRadioButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1625C59C73FB2A4DC91813D14CA3D75A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84774FF2EC85CA1084B5298EDE89DC5 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		220E61F93FBE49E9C3EBBEE5E9331C18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84116DD709725E60919846D7B1AF714B /* DLRadioButton-umbrella.h in Headers */,
+				8F2D8EC348F59816CFDEA65538E3E532 /* DLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACAADE8C354A0CC8B83B26D9187702C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03511FD98EDF4D945F1FBD5E405D5A54 /* Pods-QuizMaker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
+				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
+				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
+				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
+				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
+				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
+				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5780D23677E756CCB12940F250B0F6FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD95819A67825305691F9D03A1477E3 /* DynamicBlurView-umbrella.h in Headers */,
+				2F6D143061A37F1799C4E9E70178679C /* DynamicBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F310FC2620033833D0148193C1E755 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				645DC4F2E36E4A972986D3CD8883696C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A047991F7702E02CB8235DE2C1D618C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD5CFAB852DD9D0344AC302252A8E74 /* PopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA51D89A614FB5AD07D30EA7F9BD38E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5A404430AA5190BA8A43623361D340 /* SwipeCellKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D0D78EA3A1EE03BF1C297B113A0060 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C6737DDC677E9ECE35247A46DF4CCE /* SwiftReorder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E714856901A0E1988549DDD46941CEEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FE96E8A46B7E45E2547BC0B87B012A /* YNDropDownMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
+				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
+				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 696646EBB8AC8C42A81B19AF3F4DC37B /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B6C23E90DDDAD29955ECFBA77E6AA41 /* PopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2B4417863091C9EED3421268679539 /* Build configuration list for PBXNativeTarget "PopupDialog" */;
+			buildPhases = (
+				2269E4A4FA670CB5B41C0A013AAD3188 /* Sources */,
+				5A34786E477FD712AE6F600D9B30D85C /* Frameworks */,
+				9A047991F7702E02CB8235DE2C1D618C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2073D5C2553A3991A84F359CEFBCC0D6 /* PBXTargetDependency */,
+			);
+			name = PopupDialog;
+			productName = PopupDialog;
+			productReference = F4C6533D3C22A0A5ED1B41775EE10C7C /* PopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		755E9943F9B7F67A9F4D75B66F2F6E04 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FD974A85C46C88A320C85CA1C22388 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				1352D827F66EC87C94FF9F11F856B3A1 /* Sources */,
+				DC6CB1029D4FAE287F57C8415E8291B9 /* Frameworks */,
+				1625C59C73FB2A4DC91813D14CA3D75A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = 71A340C9F3981C86AE6249E0DA2232E1 /* RAMAnimatedTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1B3C8A74EE5F0BA8EEA33D98DC56D1 /* Build configuration list for PBXNativeTarget "DynamicBlurView" */;
+			buildPhases = (
+				2343253744ADE559BBDEC4EC41F51B6D /* Sources */,
+				81668173AE602C46A6D214E9B4F84F91 /* Frameworks */,
+				5780D23677E756CCB12940F250B0F6FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicBlurView;
+			productName = DynamicBlurView;
+			productReference = DB92FB2AB17433C5F3665BC8A5E2D06C /* DynamicBlurView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6FE509B0ABDFDF5B6B8F102A0D955EC /* SwipeCellKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975418D6243CD66F17DF2957CEDF356C /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildPhases = (
+				512748A400B2626A4A8EB2C59DDC1084 /* Sources */,
+				FA3CEAA418F5292019DB0E390E02EEA5 /* Frameworks */,
+				ACA51D89A614FB5AD07D30EA7F9BD38E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeCellKit;
+			productName = SwipeCellKit;
+			productReference = D29E3BB56039E850249DCB495A4B48AA /* SwipeCellKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE9BDD86528766AFF99F58F3E11B2665 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5A25137BB62C08F06BBD65C4E9DD94 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				6A70EEF88641231CA838E6C74C1AA2B7 /* Sources */,
+				C95CCCE465C7957AB279E8E557552FF7 /* Frameworks */,
+				74F310FC2620033833D0148193C1E755 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = F9733F8F471CE66F7B59E67DD041652F /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA76C48D5A8036280871D1F0E1950DB3 /* YNDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC5CBFF70DBA523FAF722ED3849B61 /* Build configuration list for PBXNativeTarget "YNDropDownMenu" */;
+			buildPhases = (
+				43F323C6DE3189C4E1E8C57043FF71BC /* Sources */,
+				E6071B4A4A9F7ABE34DD9543715CFD02 /* Frameworks */,
+				E714856901A0E1988549DDD46941CEEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YNDropDownMenu;
+			productName = YNDropDownMenu;
+			productReference = 79B94A839C8B60C5A95D77EC347D20C4 /* YNDropDownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC2C7CADE64757C27CD3FF4CA68562D7 /* SwiftReorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63F8F67D505F15A809579E44E26FB5F5 /* Build configuration list for PBXNativeTarget "SwiftReorder" */;
+			buildPhases = (
+				E2552FB95A0DF7780FA015E67EFBAE64 /* Sources */,
+				E820850ED34866F9B5B7A47E4696A8A8 /* Frameworks */,
+				B1D0D78EA3A1EE03BF1C297B113A0060 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftReorder;
+			productName = SwiftReorder;
+			productReference = 03ECC99A0BC0084F8AAEB2EC525D1450 /* SwiftReorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED14170087864B74BE189A4E2C8EF06B /* Pods-QuizMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65063D9C5E03A0B9370AE753241D48AD /* Build configuration list for PBXNativeTarget "Pods-QuizMaker" */;
+			buildPhases = (
+				ABFCC3C02748CEB4AF9567F08E6CF646 /* Sources */,
+				AB977252AE38D007CB93BC6FA8F0255C /* Frameworks */,
+				2ACAADE8C354A0CC8B83B26D9187702C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D99F7D69300735CFFF4AB3D7F09C0970 /* PBXTargetDependency */,
+				9208B3B1D75ED7EA9C9D18D2FC1CCD82 /* PBXTargetDependency */,
+				926111871C9530C1E026B3BE81252E06 /* PBXTargetDependency */,
+				BA55F3C18A8B243265A0C7F6CA156FE5 /* PBXTargetDependency */,
+				043BCACB190E73590C85C01D9B5AE343 /* PBXTargetDependency */,
+				94306DC37D9ADEB09A2BEE1988387CB3 /* PBXTargetDependency */,
+				8EFB832C510F4EA379793867F28213DC /* PBXTargetDependency */,
+				81C08051DA3AD68CFE35FC8F5D6A892E /* PBXTargetDependency */,
+				72AA6D98A19A0886EF83AB72F99F9DD2 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuizMaker";
+			productName = "Pods-QuizMaker";
+			productReference = 1355D36015EB5449B01CE4D7448A2715 /* Pods_QuizMaker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118FCC60066EF1D7DD17E50B82C12AA4 /* Build configuration list for PBXNativeTarget "DLRadioButton" */;
+			buildPhases = (
+				8F67A4B4F56469850BF8A099A6E12AE8 /* Sources */,
+				A2A324E81F33CA8363E22E0C427CBC97 /* Frameworks */,
+				220E61F93FBE49E9C3EBBEE5E9331C18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRadioButton;
+			productName = DLRadioButton;
+			productReference = 05834A0AD7FEE64AA97DF24E53049E9C /* DLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C9F4DD66B7C35543473ED4B8E6AD7F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */,
+				9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */,
+				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
+				ED14170087864B74BE189A4E2C8EF06B /* Pods-QuizMaker */,
+				6B6C23E90DDDAD29955ECFBA77E6AA41 /* PopupDialog */,
+				755E9943F9B7F67A9F4D75B66F2F6E04 /* RAMAnimatedTabBarController */,
+				DC2C7CADE64757C27CD3FF4CA68562D7 /* SwiftReorder */,
+				BE9BDD86528766AFF99F58F3E11B2665 /* SwiftyJSON */,
+				A6FE509B0ABDFDF5B6B8F102A0D955EC /* SwipeCellKit */,
+				DA76C48D5A8036280871D1F0E1950DB3 /* YNDropDownMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1352D827F66EC87C94FF9F11F856B3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D14646BA86E31D530EF9D1A7FEE7046 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				1A5E57BB0204CF0EBDC2115B144660B6 /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				19EBAE6B83EF2EA7458EAA2261019256 /* RAMAnimatedTabBarController.swift in Sources */,
+				A4468EBBC4D4822B114DE82067BEDD73 /* RAMBadge.swift in Sources */,
+				AA785CFD864EB48D7800491E93719723 /* RAMBounceAnimation.swift in Sources */,
+				E903D19721F34DC3492D8AC2456A87D1 /* RAMFrameItemAnimation.swift in Sources */,
+				ED81D114A81E2376569B7AE62C23F807 /* RAMFumeAnimation.swift in Sources */,
+				F4E30DBDE0340E3DDF11C938BD63BBC2 /* RAMItemAnimationProtocol.swift in Sources */,
+				0760E201200A6BF17EAE2D08098FCCBB /* RAMRotationAnimation.swift in Sources */,
+				48A481D5D373A7C6B964DE6996358D1E /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2269E4A4FA670CB5B41C0A013AAD3188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA69E1C4B41A98ABA6FE59C3B9EE6ED7 /* InteractiveTransition.swift in Sources */,
+				0119ABF946A8BAFC124BCC55A7D11F3F /* PopupDialog+Keyboard.swift in Sources */,
+				0E87446A10313E19FD6AF3C8F3CA3BC7 /* PopupDialog-dummy.m in Sources */,
+				AFAB059FBE21ABEBFAD1821AD67245E5 /* PopupDialog.swift in Sources */,
+				8CAF40652A127801353B456CE7E95DB9 /* PopupDialogButton.swift in Sources */,
+				406091480BE58DF46687A920BB587B36 /* PopupDialogContainerView.swift in Sources */,
+				D3D5426AD035FEF08C0BE2BFED1B0CD9 /* PopupDialogDefaultButtons.swift in Sources */,
+				BDBEA492858C0429A80AF0484B29F498 /* PopupDialogDefaultView.swift in Sources */,
+				A3BABC9B4DD94D3545C982EB9D682EF6 /* PopupDialogDefaultViewController.swift in Sources */,
+				99C18F24A3468A3E051ED48475D216E5 /* PopupDialogOverlayView.swift in Sources */,
+				948CA46498D92DAC53BD4861B79FC412 /* PresentationController.swift in Sources */,
+				3046B95FD5763046D5D9C78E635D548D /* PresentationManager.swift in Sources */,
+				F65CC0D71F07EDBC5CAE8C79DC835474 /* TransitionAnimations.swift in Sources */,
+				9779E6B966518DD6F717B9866597FD95 /* TransitionAnimator.swift in Sources */,
+				8DC0C31B20588F9BACC4DFEE35713120 /* UIImageView+Calculations.swift in Sources */,
+				185554AB3A4525DDBAD3DE7AE2558BCB /* UIView+Animations.swift in Sources */,
+				C71A54AF835698631CEB21DAAE823ADC /* UIViewController+Visibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2343253744ADE559BBDEC4EC41F51B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9584B98DAE3E860B6AB5EA9781DC7057 /* BlurLayer.swift in Sources */,
+				72763BA40BBEB214F29FF33DE5FB907C /* CaptureQuality.swift in Sources */,
+				FB5CECAD4729CF846E332E692D1673B1 /* CGContext+CGImage.swift in Sources */,
+				5D19BAE8B0155836806C26876E2F812A /* CGImage+Accelerate.swift in Sources */,
+				0F979D0A878062EA1DFD82B4ACE22C01 /* DynamicBlurView-dummy.m in Sources */,
+				608FF6E4BCB0660D1D6D9DB0FF6B22FC /* DynamicBlurView.swift in Sources */,
+				C2DB0E4B4EC4B4DF8EA4B96FB78FBA99 /* TrackingMode.swift in Sources */,
+				82BD34CDF279D0AC1810CDE02EF4C156 /* UIImage+Blur.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F323C6DE3189C4E1E8C57043FF71BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6495640231432829A8130B26906A626 /* YNDropDownButton.swift in Sources */,
+				B4DDAFAB8134D998448C9BC1FE9CDB95 /* YNDropDownDelegate.swift in Sources */,
+				F1DCD986AC0B73E56CE95D69125491F3 /* YNDropDownDeprecated.swift in Sources */,
+				F758C7081653CB2249CC021A95C1C1B0 /* YNDropDownMenu-dummy.m in Sources */,
+				E0F187D947493F003097ABC41B6DE7FD /* YNDropDownMenu.swift in Sources */,
+				FA880CA7B7AE5D366BCD753F8251FA1E /* YNDropDownStatus.swift in Sources */,
+				1E57C5A34C471782742E356FF74D6432 /* YNDropDownView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512748A400B2626A4A8EB2C59DDC1084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB63307E9AE704AB560B99D82B94BD7 /* Extensions.swift in Sources */,
+				A8874E504B23C4AD0CD66258D97E176A /* Swipeable.swift in Sources */,
+				CF22E982E326D620B39A1F3526ECC03E /* SwipeAccessibilityCustomAction.swift in Sources */,
+				CB05C47929BEB51E3BE4BBF41A3B69DC /* SwipeAction.swift in Sources */,
+				2E79E15CF883ABB542BB418AB3017590 /* SwipeActionButton.swift in Sources */,
+				DB1FC093E9A2AA34952AF0460AFFF7DB /* SwipeActionsView.swift in Sources */,
+				3445154957BBDB6722ED9585BEB94217 /* SwipeActionTransitioning.swift in Sources */,
+				95F535D1D64402418BD3DC17C564778C /* SwipeAnimator.swift in Sources */,
+				306F75612685656D6EFF8E37E8FE841A /* SwipeCellKit-dummy.m in Sources */,
+				EE42076FFD5B55EF1823A67EDCB5CF02 /* SwipeCollectionViewCell+Accessibility.swift in Sources */,
+				EAA66A78C48CB96E9FB054EC6F9916D7 /* SwipeCollectionViewCell+Display.swift in Sources */,
+				3C30231E647BCD1ACA701A82C93F76E8 /* SwipeCollectionViewCell.swift in Sources */,
+				F0911DFBF0FAC9DA1B6703A9F233ACEE /* SwipeCollectionViewCellDelegate.swift in Sources */,
+				78FFD6D1ED952B43AFF1AE8B866D6309 /* SwipeController.swift in Sources */,
+				9020BAC2EBA4A757097193DE0A86736E /* SwipeExpanding.swift in Sources */,
+				48E9843128CA7BE39DF9B8A587A73C35 /* SwipeExpansionStyle.swift in Sources */,
+				338E0A4B44C349DEB155DD4A8546E73D /* SwipeFeedback.swift in Sources */,
+				DDB7E8F2E2AD2B887A31226E9E2AB601 /* SwipeOptions.swift in Sources */,
+				9BF2208547E6177E2B4D4D51AEF77ADD /* SwipeTableViewCell+Accessibility.swift in Sources */,
+				B29076EA4E745C5682BEFF413FB51CB5 /* SwipeTableViewCell+Display.swift in Sources */,
+				E4152AE40616671E8CF9D82E6C45C766 /* SwipeTableViewCell.swift in Sources */,
+				39FC46523F2D245D68BDFF98759CBA32 /* SwipeTableViewCellDelegate.swift in Sources */,
+				D3834090504CCC3B5DB93D6A60CDE37A /* SwipeTransitionLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A70EEF88641231CA838E6C74C1AA2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7B36D7B29F6B21E0D20DAB1DE20883 /* SwiftyJSON-dummy.m in Sources */,
+				7DDA9091BA9451E94BDF4894E468DDA1 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F67A4B4F56469850BF8A099A6E12AE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7E0B70C0D1CCD0AC694A99E8324ECD /* DLRadioButton-dummy.m in Sources */,
+				EF2F59EEA3194DFCFB39352F4DA16D76 /* DLRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
+				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
+				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
+				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
+				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
+				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFCC3C02748CEB4AF9567F08E6CF646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FE51EFAFE7594C419DC944F46E1608 /* Pods-QuizMaker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2552FB95A0DF7780FA015E67EFBAE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969319CEEDC7D1DD9A03625141D4B45 /* ReorderController+AutoScroll.swift in Sources */,
+				08F507525168DACE4DA4AEE076112B87 /* ReorderController+DestinationRow.swift in Sources */,
+				6EF6DF655FB948DD7326ED039CA3A75D /* ReorderController+GestureRecognizer.swift in Sources */,
+				03F55604CB8D9B2F750472A0AC245C9B /* ReorderController+SnapshotView.swift in Sources */,
+				564D3DAA235C5A3153B3D635F4AB4868 /* ReorderController.swift in Sources */,
+				815C6F09763A5C7961E78DF90FF0FA4C /* SwiftReorder-dummy.m in Sources */,
+				E2F3CA301D270BF8A608C045C2975D47 /* UITableView+Reorder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043BCACB190E73590C85C01D9B5AE343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = 755E9943F9B7F67A9F4D75B66F2F6E04 /* RAMAnimatedTabBarController */;
+			targetProxy = D5D746C4A4DEDCB278161CB68CBBE8D4 /* PBXContainerItemProxy */;
+		};
+		2073D5C2553A3991A84F359CEFBCC0D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */;
+			targetProxy = 98211240D39BDFE4216A6CFDADCB35B7 /* PBXContainerItemProxy */;
+		};
+		72AA6D98A19A0886EF83AB72F99F9DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YNDropDownMenu;
+			target = DA76C48D5A8036280871D1F0E1950DB3 /* YNDropDownMenu */;
+			targetProxy = 0713A3033BBD2AECDFDB3CDC6835FC71 /* PBXContainerItemProxy */;
+		};
+		81C08051DA3AD68CFE35FC8F5D6A892E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = A6FE509B0ABDFDF5B6B8F102A0D955EC /* SwipeCellKit */;
+			targetProxy = 3758BEEF225D88361C647774B9F7174E /* PBXContainerItemProxy */;
+		};
+		8EFB832C510F4EA379793867F28213DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = BE9BDD86528766AFF99F58F3E11B2665 /* SwiftyJSON */;
+			targetProxy = 3F62410DBA014BB6DD4A4F5D17B7893C /* PBXContainerItemProxy */;
+		};
+		9208B3B1D75ED7EA9C9D18D2FC1CCD82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 9AD6E417B292CCB529632F0FA6F2EFEC /* DynamicBlurView */;
+			targetProxy = 664FE6E8314F18DB669A86D54C493E6D /* PBXContainerItemProxy */;
+		};
+		926111871C9530C1E026B3BE81252E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = 3AE175EF2F9BF15F8E054B9CA8804326 /* PBXContainerItemProxy */;
+		};
+		94306DC37D9ADEB09A2BEE1988387CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftReorder;
+			target = DC2C7CADE64757C27CD3FF4CA68562D7 /* SwiftReorder */;
+			targetProxy = DBE050C417661CD44E0232E0C6D83ED0 /* PBXContainerItemProxy */;
+		};
+		BA55F3C18A8B243265A0C7F6CA156FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6B6C23E90DDDAD29955ECFBA77E6AA41 /* PopupDialog */;
+			targetProxy = 23480CE8D716085AADA8CD7BBE9C03A2 /* PBXContainerItemProxy */;
+		};
+		D99F7D69300735CFFF4AB3D7F09C0970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DLRadioButton;
+			target = F6A77E2753C279F67F70C5C21D6FAE15 /* DLRadioButton */;
+			targetProxy = C89A10F27C14A3A2AC64C79B7A117636 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03507608C0DC6E021FB836F7C7CFFA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E1269F2F8A496C01299925230289F8 /* Pods-QuizMaker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizMaker/Pods-QuizMaker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0BC7908DD34ACBD07B972C1E82AC4191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39911A4B58AA5D9A67361C6370AA7776 /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		153E1E48159065EFAE5A254C82494A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F63FA6DE798BB2CFC976C83BD037ED /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1DBEA86345E16DDA0C542480615F771C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A3CE537E96CB08992DE980C0068D72 /* SwipeCellKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_MODULE_NAME = SwipeCellKit;
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20EC6BF49AA93B6439B0AE5248549363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49819984EC36A69D68609B8D4A728DE6 /* SwiftReorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftReorder/SwiftReorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftReorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftReorder/SwiftReorder.modulemap";
+				PRODUCT_MODULE_NAME = SwiftReorder;
+				PRODUCT_NAME = SwiftReorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F18AB70B4BC9E708B9E9F259501A306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39911A4B58AA5D9A67361C6370AA7776 /* DynamicBlurView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicBlurView/DynamicBlurView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicBlurView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicBlurView/DynamicBlurView.modulemap";
+				PRODUCT_MODULE_NAME = DynamicBlurView;
+				PRODUCT_NAME = DynamicBlurView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BB3E727CDBB93A5FCEB59C040BF4A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49819984EC36A69D68609B8D4A728DE6 /* SwiftReorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftReorder/SwiftReorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftReorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftReorder/SwiftReorder.modulemap";
+				PRODUCT_MODULE_NAME = SwiftReorder;
+				PRODUCT_NAME = SwiftReorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5415760F43E790CF3ED7CE6037BB08BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD540E9C74BC5ED62060A3E021E1573 /* YNDropDownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = YNDropDownMenu;
+				PRODUCT_NAME = YNDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65565817FB06BB642A47EF54E2119FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5329C6B4A02276D21EE94AEB0EB043 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		745FDD2F954ECE986B18B1F64ED32AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A3CE537E96CB08992DE980C0068D72 /* SwipeCellKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_MODULE_NAME = SwipeCellKit;
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D9AB0C6EDF174495F2617CDC3ED2CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F6124FD73D1AD92C35D9D9AF109DF5 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		869C751CBD1B3814A9DFE78AC4F07306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9CE6C4CFA5A5ECAE6B5DB00FAF200E /* Pods-QuizMaker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QuizMaker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuizMaker/Pods-QuizMaker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		888BF9F290CAD79B8211474A4251214D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0EAD16EC6E2AB6C26D509EF8F76212 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94004E3F26E54600490E340DC9401B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD540E9C74BC5ED62060A3E021E1573 /* YNDropDownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YNDropDownMenu/YNDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YNDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YNDropDownMenu/YNDropDownMenu.modulemap";
+				PRODUCT_MODULE_NAME = YNDropDownMenu;
+				PRODUCT_NAME = YNDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2E495413E3FFF714D41F01DB1720A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F63FA6DE798BB2CFC976C83BD037ED /* FMDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				PRODUCT_MODULE_NAME = FMDB;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A924389C60816F4444D2C1A84260A70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F6124FD73D1AD92C35D9D9AF109DF5 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE98114E67E7F1E954022B83C7BDB136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E6A6C997EE18A5AA2A4C23AB0A930D /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7F0DA82D30885979C8782A014B23632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5329C6B4A02276D21EE94AEB0EB043 /* DLRadioButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DLRadioButton/DLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DLRadioButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DLRadioButton/DLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = DLRadioButton;
+				PRODUCT_NAME = DLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA07214E78DEC676326533FA0BDCD849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0EAD16EC6E2AB6C26D509EF8F76212 /* RAMAnimatedTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FDDA58F2740CE05C1C3A2F04441E4974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E6A6C997EE18A5AA2A4C23AB0A930D /* PopupDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PopupDialog/PopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PopupDialog/PopupDialog.modulemap";
+				PRODUCT_MODULE_NAME = PopupDialog;
+				PRODUCT_NAME = PopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118FCC60066EF1D7DD17E50B82C12AA4 /* Build configuration list for PBXNativeTarget "DLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F0DA82D30885979C8782A014B23632 /* Debug */,
+				65565817FB06BB642A47EF54E2119FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FD974A85C46C88A320C85CA1C22388 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA07214E78DEC676326533FA0BDCD849 /* Debug */,
+				888BF9F290CAD79B8211474A4251214D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E495413E3FFF714D41F01DB1720A27 /* Debug */,
+				153E1E48159065EFAE5A254C82494A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63F8F67D505F15A809579E44E26FB5F5 /* Build configuration list for PBXNativeTarget "SwiftReorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EC6BF49AA93B6439B0AE5248549363 /* Debug */,
+				4BB3E727CDBB93A5FCEB59C040BF4A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65063D9C5E03A0B9370AE753241D48AD /* Build configuration list for PBXNativeTarget "Pods-QuizMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				869C751CBD1B3814A9DFE78AC4F07306 /* Debug */,
+				03507608C0DC6E021FB836F7C7CFFA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC5CBFF70DBA523FAF722ED3849B61 /* Build configuration list for PBXNativeTarget "YNDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94004E3F26E54600490E340DC9401B50 /* Debug */,
+				5415760F43E790CF3ED7CE6037BB08BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		975418D6243CD66F17DF2957CEDF356C /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745FDD2F954ECE986B18B1F64ED32AC2 /* Debug */,
+				1DBEA86345E16DDA0C542480615F771C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1B3C8A74EE5F0BA8EEA33D98DC56D1 /* Build configuration list for PBXNativeTarget "DynamicBlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC7908DD34ACBD07B972C1E82AC4191 /* Debug */,
+				2F18AB70B4BC9E708B9E9F259501A306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5A25137BB62C08F06BBD65C4E9DD94 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9AB0C6EDF174495F2617CDC3ED2CAD /* Debug */,
+				A924389C60816F4444D2C1A84260A70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2B4417863091C9EED3421268679539 /* Build configuration list for PBXNativeTarget "PopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE98114E67E7F1E954022B83C7BDB136 /* Debug */,
+				FDDA58F2740CE05C1C3A2F04441E4974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

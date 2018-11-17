@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "QuizListBaseViewController.getQuizListViewControllers():QuizListBaseViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "QuizContentsAddViewController.viewDidLoad():QuizContentsAddViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "QuizContentsAddViewController.textFieldDidEndEditing(_:):QuizContentsAddViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "QuizContentsAddViewController.singleType(tableView:indexPath:):QuizContentsAddViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ConfigString.init():ConfigString.swift">
+      </ContextState>
+      <ContextState
+         contextName = "QuizContentsAddViewController.structSet():QuizContentsAddViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.choiceCount[quizType]">
+            </PersistentString>
+            <PersistentString
+               value = "quizValueList[quizType].choiceCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "QuizContentsAddViewController.tableReload():QuizContentsAddViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
